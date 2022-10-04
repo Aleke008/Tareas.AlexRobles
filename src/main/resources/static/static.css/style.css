@@ -3,24 +3,56 @@
     box-sizing: border-box;
 }
 
-body{
+/*body{
     font-family: String;
-    padding: 90px 20px 20px;
-}
+    font-size: 40px;
+    padding: 20px 20px 0px;
+}*/
 
 .header{
-    background-color:  firebrick;
-    height: 90px;
-    position: static;
+    background-color: darkseagreen;
+    height: 130px;
     top: 20px;
     left: 20px;
     width: 100%;
+    font-family: sans-serif;
+    font-size: 50px;
+    justify-content: center;
+}
+
+section{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px 20px 20px;
+}
+
+h2{
+    font-size: 30px;
+    color: darkgreen;
+    padding: 20px 20px 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: darkgreen;
+    padding: 20px 20px 20px;
+}
+
+footer{
+    padding: 10px 10px 10px;
+    font-size: 15px;
+}
+
+hr{
+    font-size: 100px;
+    color: darkseagreen;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
-    justify-items: right;
+    justify-items: center;
+    font-size: 10px;
     margin: 0 auto;
 }
 
@@ -32,20 +64,20 @@ body{
 .logo{
     font-size: 60px;
     font-weight: 800;
-    padding: 0 40px;
-    line-height: 100px;
+    padding: 0 10px;
+    line-height: 10px;
 }
 
 .nav-menu{
     display: list-item;
-    margin-right: 20px;
+    margin-right: 10px;
     list-style:  georgian;
 }
 
 .nav-menu-item{
     font-size: 25px;
     margin: 10px 10px;
-    line-height: 100px;
+    line-height: 10px;
 }
 
 .nav-menu-link{
