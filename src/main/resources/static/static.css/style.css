@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: String;
+    padding: 90px 20px 20px;
+}
+
+.header{
+    background-color:  firebrick;
+    height: 90px;
+    position: static;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: right;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 60px;
+    font-weight: 800;
+    padding: 0 40px;
+    line-height: 100px;
+}
+
+.nav-menu{
+    display: list-item;
+    margin-right: 20px;
+    list-style:  georgian;
+}
+
+.nav-menu-item{
+    font-size: 25px;
+    margin: 10px 10px;
+    line-height: 100px;
+}
+
+.nav-menu-link{
+    padding: 20px 20px;
+    border-radius: 5px;
+}
